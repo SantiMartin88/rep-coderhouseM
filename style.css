@@ -1,0 +1,194 @@
+/* reset de css| quita todos los estolos que vienen por defaul en los navegadores*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  Selector + Propiedad + Valor
+
+Selector{
+Propiedad: valor
+}
+
+*/
+
+p{
+    /* Nombre del color, Hexadecimal,rgb y rgba*/
+    /* color: blue;*/
+     color: #ffffff;
+     /* color: rgb(0,0,0255);*/
+    /* Color: rgba(255, 0, 183, 0.681);*/
+    /*font-size: 30;*/
+    /*Unidades de medida|px em rem % */
+    /*margin: 20px;*/
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url(fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #260E12;
+}
+
+
+.barra-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barra-nav li{
+    margin: 0 15px;
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.barra-nav a:hover{
+    color: rgb(252, 237, 28);
+}
+.barra-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.taza{
+    width: 40%;
+}
+.linea{
+    background-color: #806239;
+    width: 1fr;
+    height: 2px;
+
+}
+.linea2{
+    background-color: #806239;
+    width: 1fr;
+    height: 2px;
+}
+.bienvenido{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif, light;
+    font-weight: 200;
+    color: #806239;
+    padding: 30px;
+}
+
+.logo{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+
+}
+
+.footer {
+    justify-content: space-between;
+    display: flex;
+    padding: 40px;
+}
+.ixcatepec{
+
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+.estancia{
+    justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    align-items: center;
+}
+/* menu*/
+.menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 300px 300px 300px;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+}
+/* cafe por KG*/
+.cafe ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 300px 300px 300px;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+}
+/* Nosotros*/
+.nosotros{
+    background-image: url(arriva.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #260E12;
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    width: 1fr;
+    height: 343px;
+}
+.leyenda{
+    font-family: "Roboto", sans-serif, light;
+    font-size: 25px;
+}
+/* contacto*/
+.bienveni2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif, light;
+    font-weight: 200;
+    color: #806239;
+    padding: 30px;
+
+}
+.contacto{
+    background-image: none;
+}
+/* contacto */
+.contenedor div{
+    display: flex;
+    width: 1fr;
+    height: 1fr;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 20px;
+}
+.formulario li{
+    padding: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #ffffff;
+}
+.boton{
+    justify-items: center;
+    padding: 20px;
+}
+/* Trabaja */
+.bolsa{
+    display: flex;
+}
+.bolsatrabajo{
+    background-image: none;
+}
+.bolsa div{
+    display: flex;
+    width: 1fr;
+    height: 1fr;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    font-size: 20px;
+}
+.boton2{
+    justify-items: center;
+    padding: 20px;
+}
